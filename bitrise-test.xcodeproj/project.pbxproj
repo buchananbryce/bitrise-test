@@ -1,0 +1,399 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02060212218B95580087655F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 02060211218B95580087655F /* AppDelegate.m */; };
+		02060215218B95580087655F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 02060214218B95580087655F /* ViewController.m */; };
+		02060218218B95580087655F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 02060216218B95580087655F /* Main.storyboard */; };
+		0206021A218B955B0087655F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 02060219218B955B0087655F /* Assets.xcassets */; };
+		0206021D218B955B0087655F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0206021B218B955B0087655F /* LaunchScreen.storyboard */; };
+		02060220218B955B0087655F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0206021F218B955B0087655F /* main.m */; };
+		02060227218B95890087655F /* NewRelicAgent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02060226218B95890087655F /* NewRelicAgent.framework */; };
+		0206022B218B96BF0087655F /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 0206022A218B96BF0087655F /* libz.tbd */; };
+		0206022D218B96C50087655F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0206022C218B96C50087655F /* SystemConfiguration.framework */; };
+		0206022F218B96CA0087655F /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0206022E218B96CA0087655F /* CoreTelephony.framework */; };
+		02060231218B96CE0087655F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 02060230218B96CE0087655F /* libc++.tbd */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0206020D218B95580087655F /* bitrise-test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "bitrise-test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		02060210218B95580087655F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		02060211218B95580087655F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		02060213218B95580087655F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		02060214218B95580087655F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		02060217218B95580087655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		02060219218B955B0087655F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0206021C218B955B0087655F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0206021E218B955B0087655F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0206021F218B955B0087655F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		02060226218B95890087655F /* NewRelicAgent.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NewRelicAgent.framework; sourceTree = "<group>"; };
+		0206022A218B96BF0087655F /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		0206022C218B96C50087655F /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		0206022E218B96CA0087655F /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		02060230218B96CE0087655F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0206020A218B95580087655F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02060231218B96CE0087655F /* libc++.tbd in Frameworks */,
+				0206022F218B96CA0087655F /* CoreTelephony.framework in Frameworks */,
+				0206022D218B96C50087655F /* SystemConfiguration.framework in Frameworks */,
+				0206022B218B96BF0087655F /* libz.tbd in Frameworks */,
+				02060227218B95890087655F /* NewRelicAgent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02060204218B95580087655F = {
+			isa = PBXGroup;
+			children = (
+				02060226218B95890087655F /* NewRelicAgent.framework */,
+				0206020F218B95580087655F /* bitrise-test */,
+				0206020E218B95580087655F /* Products */,
+				02060229218B96BE0087655F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0206020E218B95580087655F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0206020D218B95580087655F /* bitrise-test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0206020F218B95580087655F /* bitrise-test */ = {
+			isa = PBXGroup;
+			children = (
+				02060210218B95580087655F /* AppDelegate.h */,
+				02060211218B95580087655F /* AppDelegate.m */,
+				02060213218B95580087655F /* ViewController.h */,
+				02060214218B95580087655F /* ViewController.m */,
+				02060216218B95580087655F /* Main.storyboard */,
+				02060219218B955B0087655F /* Assets.xcassets */,
+				0206021B218B955B0087655F /* LaunchScreen.storyboard */,
+				0206021E218B955B0087655F /* Info.plist */,
+				0206021F218B955B0087655F /* main.m */,
+			);
+			path = "bitrise-test";
+			sourceTree = "<group>";
+		};
+		02060229218B96BE0087655F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				02060230218B96CE0087655F /* libc++.tbd */,
+				0206022E218B96CA0087655F /* CoreTelephony.framework */,
+				0206022C218B96C50087655F /* SystemConfiguration.framework */,
+				0206022A218B96BF0087655F /* libz.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0206020C218B95580087655F /* bitrise-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 02060223218B955B0087655F /* Build configuration list for PBXNativeTarget "bitrise-test" */;
+			buildPhases = (
+				02060209218B95580087655F /* Sources */,
+				0206020A218B95580087655F /* Frameworks */,
+				0206020B218B95580087655F /* Resources */,
+				02060228218B95EC0087655F /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bitrise-test";
+			productName = "bitrise-test";
+			productReference = 0206020D218B95580087655F /* bitrise-test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		02060205218B95580087655F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "New Relic";
+				TargetAttributes = {
+					0206020C218B95580087655F = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 02060208218B95580087655F /* Build configuration list for PBXProject "bitrise-test" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 02060204218B95580087655F;
+			productRefGroup = 0206020E218B95580087655F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0206020C218B95580087655F /* bitrise-test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0206020B218B95580087655F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0206021D218B955B0087655F /* LaunchScreen.storyboard in Resources */,
+				0206021A218B955B0087655F /* Assets.xcassets in Resources */,
+				02060218218B95580087655F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02060228218B95EC0087655F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export DSYM_UPLOAD_URL=\"http://symbol-upload-api.staging-service.newrelic.com\"\n\nSCRIPT=`/usr/bin/find \"${SRCROOT}\" -name newrelic_postbuild.sh | head -n 1`\n\n/bin/sh \"${SCRIPT}\" \"AA35c76060ca815669203ae2efee758fb561c25640\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		02060209218B95580087655F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02060215218B95580087655F /* ViewController.m in Sources */,
+				02060220218B955B0087655F /* main.m in Sources */,
+				02060212218B95580087655F /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		02060216218B95580087655F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				02060217218B95580087655F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0206021B218B955B0087655F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0206021C218B955B0087655F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		02060221218B955B0087655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		02060222218B955B0087655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		02060224218B955B0087655F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H34Z5KQ7C4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "bitrise-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewRelic.bitrise-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		02060225218B955B0087655F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H34Z5KQ7C4;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "bitrise-test/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.NewRelic.bitrise-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		02060208218B95580087655F /* Build configuration list for PBXProject "bitrise-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02060221218B955B0087655F /* Debug */,
+				02060222218B955B0087655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		02060223218B955B0087655F /* Build configuration list for PBXNativeTarget "bitrise-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				02060224218B955B0087655F /* Debug */,
+				02060225218B955B0087655F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 02060205218B95580087655F /* Project object */;
+}
