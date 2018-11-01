@@ -58,7 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				02060226218B95890087655F /* NewRelicAgent.framework */,
-				0206020F218B95580087655F /* bitrise-test */,
+				0206020F218B95580087655F /* src */,
 				0206020E218B95580087655F /* Products */,
 				02060229218B96BE0087655F /* Frameworks */,
 			);
@@ -72,7 +72,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0206020F218B95580087655F /* bitrise-test */ = {
+		0206020F218B95580087655F /* src */ = {
 			isa = PBXGroup;
 			children = (
 				02060210218B95580087655F /* AppDelegate.h */,
@@ -85,7 +85,7 @@
 				0206021E218B955B0087655F /* Info.plist */,
 				0206021F218B955B0087655F /* main.m */,
 			);
-			path = "bitrise-test";
+			path = src;
 			sourceTree = "<group>";
 		};
 		02060229218B96BE0087655F /* Frameworks */ = {
