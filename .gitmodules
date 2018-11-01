@@ -1,0 +1,3 @@
+[submodule "steps-xcode-archive"]
+	path = steps-xcode-archive
+	url = https://github.com/bitrise-io/steps-xcode-archive.git
